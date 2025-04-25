@@ -31,7 +31,7 @@ export default function Home() {
       formData.append("color", color);
       formData.append("style", style);
 
-      const res = await axios.post("https://your-api-url/process", formData, {
+      const res = await axios.post("http://192.168.1.6:8000/process", formData, {
         responseType: "blob",
       });
       const output = URL.createObjectURL(res.data);
