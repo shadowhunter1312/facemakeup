@@ -1,6 +1,6 @@
-fastapi
-uvicorn
+fastapi==0.95.1
+uvicorn==0.22.0
 opencv-python-headless==4.5.3.56
-numpy
-mediapipe
-python-multipart
+numpy==1.21.6
+mediapipe==0.8.9.1
+python-multipart==0.0.20
